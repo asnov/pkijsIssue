@@ -2,9 +2,6 @@
  * Created by alexnew on 28/04/17.
  */
 
-// Hi,
-// I stucked with an issue in SignedData.verify method. Here is the code:
-
 // preparation for Node.js only
 /// <reference path="node_modules/node-webcrypto-ossl/index.d.ts" />
 const WebCryptoForNode = require('node-webcrypto-ossl');
