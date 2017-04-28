@@ -2,14 +2,14 @@
   "name": "pkijs_test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "dependencies": {
     "asn1js": "^2.0.12",
     "node.extend": "^1.1.6",
     "pkijs": "^2.0.55"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node index.ts"
   },
   "author": "Alex Novikov <alex@asnovikov.ru> (http://www.asnovikov.ru)",
   "license": "ISC",
@@ -18,6 +18,7 @@
     "@types/node": "^7.0.12",
     "@types/pkijs": "0.0.1",
     "node-webcrypto-ossl": "^1.0.21",
+    "ts-node": "^3.0.2",
     "typescript": "^2.2.2"
   }
 }
