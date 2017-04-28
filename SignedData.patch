@@ -1,0 +1,4 @@
+742c742
+< 				shaAlgorithm = signerInfoHashAlgorithm.name;
+---
+> 				shaAlgorithm = signerInfoHashAlgorithm.hash.name;
